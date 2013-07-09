@@ -1,8 +1,8 @@
 
-// LED Code for basic slow cycling rainbow in Neopixel WS2811 LED strip, with variable brightness, speed, and amount of rainbow shown at one time.
+// Arduino code for basic slow cycling rainbow in Neopixel WS2811 LED strip, with variable brightness, speed, and amount of rainbow shown at one time.
 /*************************************************************************************/
 
-#include "FastSPI_LED2.h"
+#include "FastSPI_LED2.h" // library here: http://code.google.com/p/fastspi/
 
 #define NUM_LEDS 120 //length of LED strip
 
